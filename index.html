@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="to__do-list">
+        <div class="yellow"></div>
+        <div class="container">
+          <h1>To-Do List</h1>
+          <div class="to__do-box">
+            <div class="icon">
+              <i class="sort__str fa-solid fa-arrow-down-a-z"></i>
+              <i class="sort__num fa-solid fa-arrow-down-1-9"></i>
+            </div>
+            <form action="">
+              <div class="list__box">
+                <div class="to__do-input">
+                  <input class="input" type="text" placeholder="Add todo..." />
+                  <i class="fa-regular fa-circle-xmark del"></i>
+                </div>
+                <div class="list">
+                    <ul></ul>
+                </div>
+              </div>
+
+              <div class="btn__box">
+                <button class="btn"><i class="fa-solid fa-check"></i><span>Add</span></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

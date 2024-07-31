@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: calc(100% - 50px);
+  margin: 0 auto;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .to__do-list {
+  width: 336px;
+  min-height: 236px;
+  max-height: 400px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+section .to__do-list .yellow {
+  height: 26px;
+  background-color: #ffdc40;
+  border-radius: 10px 10px 0 0;
+}
+section .to__do-list h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  margin-top: 13px;
+}
+section .to__do-list .to__do-box .icon {
+  text-align: end;
+}
+section .to__do-list .to__do-box .icon i {
+  color: #c4c4c4;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+section .to__do-list .to__do-box .icon i:hover {
+  color: #000;
+}
+section .to__do-list .to__do-box form {
+  margin-top: 10px;
+}
+section .to__do-list .to__do-box form .list__box {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  min-height: 30px;
+  max-height: 200px;
+  overflow: hidden;
+}
+section .to__do-list .to__do-box form .list__box .to__do-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section .to__do-list .to__do-box form .list__box .to__do-input input {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  background: transparent;
+}
+section .to__do-list .to__do-box form .list__box .to__do-input .del {
+  font-size: 20px;
+  color: #c4c4c4;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.3s ease-in-out;
+}
+section .to__do-list .to__do-box form .list__box .to__do-input .del:hover {
+  color: #000;
+}
+section .to__do-list .to__do-box form .list__box .list {
+  max-height: 190px;
+  overflow-y: auto;
+}
+section .to__do-list .to__do-box form .list__box .list::-webkit-scrollbar {
+  width: 2px;
+}
+section .to__do-list .to__do-box form .list__box .list::-webkit-scrollbar-thumb {
+  background-color: #ffdc40;
+}
+section .to__do-list .to__do-box form .list__box .list ul {
+  max-height: 150px;
+}
+section .to__do-list .to__do-box form .list__box .list ul li {
+  padding: 10px 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .to__do-list .to__do-box form .list__box .list ul li i {
+  color: #c4c4c4;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+section .to__do-list .to__do-box form .list__box .list ul li i:hover {
+  color: #000;
+}
+section .to__do-list .to__do-box form .btn__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .to__do-list .to__do-box form .btn__box .btn {
+  padding: 10px 20px;
+  width: 200px;
+  margin: 20px 0;
+  background-color: #833ae0;
+  cursor: pointer;
+  border-radius: 71px;
+  color: #fff;
+  border: none;
+  position: relative;
+  background: linear-gradient(169deg, rgb(2, 2, 2) 0%, rgb(180, 47, 194) 50%, rgb(2, 2, 2) 98%);
+}
+section .to__do-list .to__do-box form .btn__box .btn i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #9953f1;
+  transition: 0.5s ease-in-out;
+  background: linear-gradient(169deg, rgb(2, 2, 2) 0%, rgb(180, 47, 194) 50%, rgb(2, 2, 2) 98%);
+}
+section .to__do-list .to__do-box form .btn__box .btn .effect {
+  right: 164px;
+}
+section .to__do-list .to__do-box form .btn__box .btn span {
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
